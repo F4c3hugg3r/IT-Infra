@@ -6,9 +6,9 @@ Resources:
     Type: "AWS::EC2::Instance"
     Properties:
       InstanceType: "t2.micro"
-      ImageId: "ami-0793ace9dd5de0095"
+      ImageId: "ami-04fc8127bf2f2399b"
       SecurityGroupIds:
-        - "sg-050596cc34e89dc28"
+        - "sg-0be714c7f0c7a34b0"
       Tags:
         - Key: Name
           Value: LennardMyEC2Instance
