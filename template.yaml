@@ -1,14 +1,14 @@
-AWSTemplateFormatVersion: "2010-09-09"
-Description: "Erstellt eine EC2 t2.micro Instanz mit spezifischer AMI und Security Group"
+#AWSTemplateFormatVersion: "2010-09-09"
+Description: "Erstellt keine EC2 t2.micro Instanz mit spezifischer AMI und Security Group"
 
-Resources:
-  MyEC2Instance:
-    Type: "AWS::EC2::Instance"
-    Properties:
-      InstanceType: "t2.micro"
-      ImageId: "ami-04fc8127bf2f2399b"
-      SecurityGroupIds:
-        - "sg-0be714c7f0c7a34b0"
-      Tags:
-        - Key: Name
-          Value: LennardMyEC2Instance
+#Resources:
+# MyEC2Instance:
+#   Type: "AWS::EC2::Instance"
+#   Properties:
+#     InstanceType: "t2.micro"
+#     ImageId: "ami-04fc8127bf2f2399b"
+#     SecurityGroupIds:
+#       - "sg-0be714c7f0c7a34b0"
+#     Tags:
+#        - Key: Name
+#          Value: LennardMyEC2Instance
